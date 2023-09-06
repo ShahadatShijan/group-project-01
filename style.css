@@ -1,160 +1,154 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    width: 1134px;
-    height: 502px;
-    margin: 0 auto;
-    background-color: #272727;
-    color: #ffffff;
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  width: 1134px;
+  height: 502px;
+  margin: 0 auto;
+  background-color: #272727;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
 /* start header_section */
 
-.header_section{
-    display: flex;
-    justify-content:space-around;
-    align-items: baseline;
-    padding: 40px;
-   
+.header_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 40px;
 }
-.piano-name{
-    width: 235px;
-    height: 39px;
-    top: 301px;
-    left: 240px;
-    font-size:21px;
-    
+.piano-name {
+  width: 235px;
+  height: 39px;
+  top: 301px;
+  left: 240px;
+  font-size: 21px;
+}
+.volume-box {
+  display: flex;
+}
 
+.piano-volume {
+  font-size: 18px;
 }
-.volume-box{
-    display:flex;
-}
-   
-.piano-volume{
-    font-size:18px;
-}
-.show-keys{
-    width: 253px;
-    height: 39px;
-    top: 294px;
-    left: 953px;
-    font-size:18px;
-    border-radius: 60px;
-    
+.show-keys {
+  width: 253px;
+  height: 39px;
+  top: 294px;
+  left: 953px;
+  font-size: 18px;
+  border-radius: 60px;
 }
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {display:none;}
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-    content: attr(data-on);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  display: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+  content: attr(data-on);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 
 /* end header_section */
 
 /* start piano_section */
 
-  
-  .piano_section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #272727;
-  }
-  
-  .piano_section .piano_button_section {
-    position: relative;
-  }
-  
-  .white_button_style {
-    background-color: #d9d9d9;
-    width: 93px;
-    height: 290px;
-    border-radius: 15px;
-    border: 0;
-    padding-top: 232px;
-    font-weight: 400;
-    font-size: 26px;
-    font-family: sans-serif;
-    z-index: 0;
-  }
-  
-  .black_button_style {
-    position: absolute;
-    z-index: 1;
-    width: 59px;
-    height: 197px;
-    border-radius: 0 0 10px 10px;
-    outline: none;
-    border: 0;
-    background-color: #000;
-    font-weight: 400;
-    font-size: 26px;
-    font-family: sans-serif;
-    color: #fff;
-    padding-top: 140px;
-  }
-  
-    
+.piano_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #272727;
+}
+
+.piano_section .piano_button_section {
+  position: relative;
+}
+
+.white_button_style {
+  background-color: #d9d9d9;
+  width: 93px;
+  height: 290px;
+  border-radius: 15px;
+  border: 0;
+  padding-top: 232px;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: sans-serif;
+  z-index: 0;
+}
+
+.black_button_style {
+  position: absolute;
+  z-index: 1;
+  width: 59px;
+  height: 197px;
+  border-radius: 0 0 10px 10px;
+  outline: none;
+  border: 0;
+  background-color: #000;
+  font-weight: 400;
+  font-size: 26px;
+  font-family: sans-serif;
+  color: #fff;
+  padding-top: 140px;
+}
+
 /* start piano_section */
