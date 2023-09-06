@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <section class="header_section">
-            Jobayer
-        </section>
+      <section class="header_section">
+        <div class="piano-name"><h2>Playable PIANO</h2></div>
+        <div class="volume-box">
+          <div class="piano-volume">
+            <h3>Volume</h3>
+            <input type="range" min="10" max="100" value="60" />
+          </div>
+        </div>
+
+        <div class="show-keys">
+          <h3>Show Keys</h3><label class="switch">
+            <input id="checkboxinp" type="checkbox">
+            <div class="slider round"></div>
+          </label>
+        </div>
+      </section>
+      <section class="piano_section"></section>
         <section class="piano_section">
             is a good boy
             no one like him
             one more added
         </section>
     </div>
-    
-</body>
+  </body>
 </html>
-
-
