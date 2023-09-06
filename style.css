@@ -150,5 +150,41 @@ input:checked + .slider:before {
   color: #fff;
   padding-top: 140px;
 }
+.black_button_style:nth-child(1) {
+  left: 163px;
+}
+
+.black_button_style:nth-child(2) {
+  left: 67px;
+}
+
+.black_button_style:nth-child(3) {
+  left: 355px;
+}
+
+.black_button_style:nth-child(4) {
+  right: 452px;
+}
+
+.black_button_style:nth-child(5) {
+  right: 356px;
+}
+
+.black_button_style:nth-child(6) {
+  right: 162px;
+}
+
+.black_button_style:nth-child(7) {
+  right: 62px;
+}
+
+.white_button_style:active {
+  background: #b6b6b6;
+  box-shadow: inset 4px 11px 10px 0px #838383;
+}
+.black_button_style:active {
+  background-image: linear-gradient(292deg, #555252, #272626);
+  box-shadow: inset 0px 6px 20px 5px #262626;
+}
 
 /* start piano_section */
