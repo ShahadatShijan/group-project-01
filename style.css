@@ -14,91 +14,6 @@
     margin-bottom: 80px;
   }
   
-  /* start header_section */
-  
-  /* end header_section */
-  
-  /* start piano_section */
-  
-  .piano_section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #272727;
-  }
-  
-  .piano_section .piano_button_section {
-    position: relative;
-  }
-  
-  .white_button_style {
-    background-color: #d9d9d9;
-    width: 93px;
-    height: 290px;
-    border-radius: 15px;
-    border: 0;
-    padding-top: 232px;
-    font-weight: 400;
-    font-size: 26px;
-    font-family: sans-serif;
-    z-index: 0;
-  }
-  
-  .black_button_style {
-    position: absolute;
-    z-index: 1;
-    width: 59px;
-    height: 197px;
-    border-radius: 0 0 10px 10px;
-    outline: none;
-    border: 0;
-    background-color: #000;
-    font-weight: 400;
-    font-size: 26px;
-    font-family: sans-serif;
-    color: #fff;
-    padding-top: 140px;
-  }
-  
-  
-  
-  /* start piano_section */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-    background-color: #000000;
-    color: #FFFFFF;
-    margin-top: 80px ;
-    margin-bottom: 80px ;
-}
-
 
 
 /* start header_section */
@@ -198,7 +113,48 @@
 
 /* start piano_section */
 
-
-
-
+  
+  .piano_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #272727;
+  }
+  
+  .piano_section .piano_button_section {
+    position: relative;
+  }
+  
+  .white_button_style {
+    background-color: #d9d9d9;
+    width: 93px;
+    height: 290px;
+    border-radius: 15px;
+    border: 0;
+    padding-top: 232px;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: sans-serif;
+    z-index: 0;
+  }
+  
+  .black_button_style {
+    position: absolute;
+    z-index: 1;
+    width: 59px;
+    height: 197px;
+    border-radius: 0 0 10px 10px;
+    outline: none;
+    border: 0;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #fff;
+    padding-top: 140px;
+  }
+  
+    
 /* start piano_section */
